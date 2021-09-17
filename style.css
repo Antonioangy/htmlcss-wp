@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+
+body {
+    width: 50%;
+    margin: auto;
+    font-size: 16px;
+}
+
+
+
+
+
+/* navigazione sito */
+
+#logo {
+    width: 100px;
+    margin: 0;
+    border-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+ul {
+
+}
+    
+
+
+
+
+
+
+
+
+
+/* CONTAINER SUPERIORE */
+.titolo {
+    background-color: rgb(255, 255, 255);
+    height: 80px;
+    margin-top: 50px;
+    
+    
+    
+    
+
+}
+/* CONTAINER CENTRALE SUPERIORE */
+.centraletop {
+    background-color: yellow;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* CONTAINER CENTRALE INFERIORE */
+#backgroundcontainer{
+    background-color: rgb(49, 99, 236);
+    height: 400px;
+   
+}
+
+/* COLORE CONTENITORI */
+.box {
+    background-color:lightblue;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    float:left
+
+}
+
+.sopra {
+    background-color:lightblue;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.clearfix::after {  
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+/* 4 container */
+    .sopra{
+        
+        height: 50px;
+        margin-bottom: 20px;
+    }
+
+    .sinistra {
+    height: 310px;
+    width: 25%;   
+    
+    }
+
+    .centrale {
+        height: 310px;
+        width: 45.75%;
+        margin-left: 20px;
+        margin-right: 20px;
+    
+    
+    }
+
+    .destra {
+        height: 310px;
+        width: 25%;   
+        
+    }
+
+/* fine 4 container */
+
+/* FOOTER */
+.inferiore { 
+    background-color: blueviolet;
+    height: 80px;
+    margin-top: 20px;
+}
+    
