@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-style: 'Montserrat'.sans-serif;
     
 
 }
@@ -22,6 +23,7 @@ body {
     width: 100px;
     margin: 0;
     border-bottom: 5px;
+    object-fit: cover
 }
 
 
@@ -31,8 +33,20 @@ body {
 
 
 
-ul {
+span{
+    text-decoration;
+    margin: 0px;
+    display: Inline;
+    font-weight: bold;
+    line-height: 50px;
+    width: 150px;
+    height: 30px;
+    text-align: left;
+    
+}
 
+a{
+    color: grey;
 }
     
 
@@ -52,16 +66,36 @@ ul {
     
     
     
-    
+   
 
 }
 /* CONTAINER CENTRALE SUPERIORE */
 .centraletop {
     background-color: yellow;
-    height: 300px;
+    height: 400px;
     margin-top: 20px;
     margin-bottom: 20px;
+    background: url(/img/banner.jpg);
+    background-size:cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    overflow: hidden;
+    position: relative;
+}   
+
+#bannercentraletop{
+    max-width:100%;
+    max-height:100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
+
+
+
+
 
 /* CONTAINER CENTRALE INFERIORE */
 #backgroundcontainer{
@@ -81,7 +115,7 @@ ul {
 }
 
 .sopra {
-    background-color:lightblue;
+    background-color:white;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -127,8 +161,12 @@ ul {
 
 /* FOOTER */
 .inferiore { 
-    background-color: blueviolet;
-    height: 80px;
+    background-color: white;
+    height: 50px;
     margin-top: 20px;
+    text-align: center;
 }
-    
+
+#cuore{
+    color: red;
+}
